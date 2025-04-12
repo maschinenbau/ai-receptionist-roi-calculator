@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     /* Tailwind directives - these inject Tailwind's base, component, and utility styles */
     @tailwind base;
     @tailwind components;
@@ -5,3 +6,8 @@
 
     /* You can add custom global styles below the directives if needed */
     
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+>>>>>>> 9700cb83118e33fc2863f3b6720ea48c3b7c40d8
