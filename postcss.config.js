@@ -1,8 +1,9 @@
-    // Configuration for PostCSS, which processes CSS, including Tailwind
+    // Configuration for PostCSS
     export default {
       plugins: {
-        '@tailwindcss/postcss': {}, // Enables Tailwind directives and class generation
-        autoprefixer: {}, // Adds vendor prefixes for browser compatibility
+        // Use the built-in processor name for Tailwind v3
+        tailwindcss: {}, 
+        autoprefixer: {}, 
       },
     }
     
